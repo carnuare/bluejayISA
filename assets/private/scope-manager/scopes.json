@@ -1,0 +1,56 @@
+{
+    "development": [
+      {
+        "classId": "class01",
+        "hidden": false,
+        "identities": [],
+        "credentials": [],
+        "projects": [
+          {
+            "name": "Bluejay Test Project",
+            "owner": "Isa-Group", 
+            "projectId": "project01",
+            "identities": [
+              {
+                "source": "github",
+                "repository": "eagle-testing",
+                "repoOwner": "cesgarpas"
+              },
+              {
+                "source": "pivotal",
+                "projectId": 2242320
+              }
+            ],
+            "credentials": [],
+            "members": []
+          }
+        ]
+      },
+      {
+        "classId": "ISAclass",
+        "hidden": false,
+        "identities": [],
+        "credentials": [],
+        "projects": [
+          {
+            "name": "For ISA Test Project",
+            "owner": "carnuare", 
+            "projectId": "project02",
+            "identities": [
+              {
+                "source": "github",
+                "repository": "pokerSolver",
+                "repoOwner": "carnuare"
+              },
+              {
+                "source": "pivotal",
+                "projectId": 2494958
+              }
+            ],
+            "credentials": [],
+            "members": []
+          }
+        ]
+      }
+    ]
+  }
